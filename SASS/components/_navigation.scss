@@ -1,0 +1,18 @@
+.site-nav-list {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  & .menu-item:last-child {
+    margin-right: 0;
+  }
+
+  & .menu-item + .menu-item {
+    margin-left: 50px;
+  }
+}
+
+.navigation {
+  display: flex;
+  margin-right: auto;
+}

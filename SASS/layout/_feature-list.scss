@@ -1,0 +1,39 @@
+.feature-list {
+  display: flex;
+
+  padding-bottom: 94px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.applications-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.applications-item {
+  position: relative;
+}
+
+.studio {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  width: 370px;
+}
+
+.applications {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 27px 82px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-white-color;
+  background: rgba(47, 48, 58, 0.8);
+}

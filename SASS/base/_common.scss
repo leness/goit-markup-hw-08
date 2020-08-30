@@ -1,0 +1,42 @@
+.body {
+  margin: 0px;
+  font-family: Roboto;
+  background-color: $primary-white-color;
+  color: $primary-text-color;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+
+  // outline: 2px solid red;
+}
+
+.site-nav-list,
+.list-title,
+.feature-list,
+.social-list,
+.list,
+.list-customers,
+.list-companies {
+  list-style: none;
+}
+
+.text-title-link {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: $primary-text-color;
+}
