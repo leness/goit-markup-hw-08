@@ -8,7 +8,7 @@
 }
 
 .list-title {
-  display: flex;
+  // display: flex;
 
   margin-top: 0px;
   margin-bottom: 0px;
@@ -27,9 +27,9 @@
   border-radius: 4px;
 }
 
-.list-caption:not(:last-child) {
-  margin-right: 30px;
-}
+// .list-caption:not(:last-child) {
+//   margin-right: 30px;
+// }
 
 .list-caption:nth-child(1)::before {
   background-image: url("../images/captions/antenna.svg");
