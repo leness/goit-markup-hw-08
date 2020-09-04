@@ -1,5 +1,9 @@
+.feature {
+  display: none;
+}
+
 .feature-list {
-  display: flex;
+  // display: flex;
 
   padding-bottom: 94px;
   padding-left: 0px;
@@ -8,9 +12,9 @@
   margin-bottom: 0px;
 }
 
-.applications-item:not(:last-child) {
-  margin-right: 30px;
-}
+// .applications-item:not(:last-child) {
+//   margin-right: 30px;
+// }
 
 .applications-item {
   position: relative;
