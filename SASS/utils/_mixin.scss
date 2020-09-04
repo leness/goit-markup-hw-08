@@ -1,7 +1,7 @@
 @mixin for-size($range) {
   $mobile: 480px;
   $tablet: 768px;
-  $desktop-upper-boundary: 1600px;
+  $desktop: 1600px;
 
   @if $range == phone-only {
     @media (max-width: #{$mobile - 1}) {
