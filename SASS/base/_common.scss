@@ -5,6 +5,12 @@
   color: $primary-text-color;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .container {
   width: 100%;
   padding-left: 15px;
@@ -26,9 +32,9 @@
   }
 }
 
-* {
-  outline: 2px solid red;
-}
+// * {
+//   outline: 2px solid red;
+// }
 
 .site-nav-list,
 .list-title,
@@ -44,13 +50,19 @@
   padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
   font-weight: bold;
-  font-size: 36px;
+
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 
   color: $primary-text-color;
+
+  @include for-size(desktop) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }

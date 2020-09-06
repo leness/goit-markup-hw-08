@@ -1,6 +1,11 @@
 .title-caption {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @include for-size(desktop) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .text-title {
@@ -8,13 +13,15 @@
 }
 
 .list-title {
-  // display: flex;
-
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
+
+  @include for-size(desktop) {
+    display: flex;
+  }
 }
 
 .list-caption::before {
@@ -57,6 +64,11 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $primary-text-color;
+  text-align: center;
+
+  @include for-size(desktop) {
+    text-align: start;
+  }
 }
 
 .text-desc {
