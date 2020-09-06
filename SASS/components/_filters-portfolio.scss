@@ -9,6 +9,11 @@
 }
 
 .container.portfolio {
-  padding-top: 93px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  @include for-size(desktop) {
+    padding-top: 93px;
+    padding-bottom: 50px;
+  }
 }
