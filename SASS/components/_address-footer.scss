@@ -1,12 +1,17 @@
 .text-address {
   margin-top: 20px;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: $primary-white-color;
+  text-align: center;
+
+  @include for-size(desktop) {
+    margin-bottom: 9px;
+  }
 }
 
 .contacts-link-footer {
@@ -19,12 +24,13 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  text-align: center;
 }
 
 .mail {
-  margin-bottom: 9px;
-}
+  margin-bottom: 8px;
 
-.address-block {
-  margin-right: 30px;
+  @include for-size(desktop) {
+    margin-bottom: 9px;
+  }
 }

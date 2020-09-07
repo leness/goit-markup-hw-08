@@ -1,25 +1,36 @@
 .subscribe-item {
-  display: inline-block;
-  max-width: 570px;
-  padding-top: 72px;
-  padding-bottom: 94px;
+  // display: inline-block;
+  // max-width: 570px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @include for-size(desktop) {
+    padding-top: 72px;
+    padding-bottom: 94px;
+  }
 }
 
-.foter-mail {
-  position: relative;
-  display: flex;
+.subscribemail {
+  text-align: center;
 }
+
+// .foter-mail {
+//   position: relative;
+//   // display: flex;
+// }
 
 .male-s {
   padding: 15px 16px;
-  // width: 346px;
-  margin-right: 10px;
+  // min-width: 450px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.25px;
 
-  align-items: center;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -38,8 +49,8 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
+  // align-items: center;
+  // text-align: center;
   letter-spacing: 0.06em;
 
   background-color: $accent-color;
@@ -49,9 +60,22 @@
   border-radius: 4px;
 }
 
+.fly {
+  position: relative;
+  // margin-left: 140px;
+  // margin-right: 140px;
+}
+
 .icon {
   position: absolute;
-  display: flex;
+  // display: flex;
   top: 13px;
-  right: 28px;
+  right: 150px;
+
+  @include for-size(tablet) {
+    position: absolute;
+    top: 13px;
+    left: 60%;
+    // right: 150px;
+  }
 }

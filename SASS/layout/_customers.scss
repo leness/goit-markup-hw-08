@@ -17,6 +17,7 @@
 
 .customer {
   height: 90px;
+  // width: calc((100% - 60px) / 2);
   // width: 210px;
   &:not(:last-child) {
     margin-bottom: 30px;
