@@ -57,6 +57,37 @@
           >
         </address>
       </div>
+      <button class="btn-burger">x</button>
+      <div class="mobile-menu">
+        <ul class="site-nav-list">
+          <li class="menu-item">
+            <a href="" class="menu-link current">Студия</a>
+          </li>
+          <li class="menu-item">
+            <a href="./portfolio.html" class="menu-link">Портфолио</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">Контакты</a>
+          </li>
+        </ul>
+        <address class="contacts">
+          <a href="mailto:info@devstudio.com" class="contacts-link"
+            ><svg class="contacts-icon">
+              <use
+                href="./images/sprite.svg#icon-envelope"
+                class="icon"
+              ></use></svg
+            >info@devstudio.com</a
+          >
+
+          <a href="tel:+380961111111" class="contacts-link phone"
+            ><svg class="contacts-icon">
+              <use href="./images/sprite.svg#icon-Vector"></use></svg
+            >+38 096 111 11 11</a
+          >
+        </address>
+      </div>
+
       <hr />
     </header>
 
@@ -695,7 +726,7 @@
         </div>
 
         <div class="join-item">
-          <p class="join">присоединяйтесь</p>
+          <p class="joins">присоединяйтесь</p>
           <ul class="list-footer">
             <li class="social-link">
               <a
@@ -750,23 +781,24 @@
         </div>
 
         <div class="subscribe-item">
-          <p class="join">Подпишитесь на рассылку</p>
-          <div class="foter-mail">
-            <form method="POST" class="subscribemail">
-              <input
-                type="mail"
-                name="mail"
-                class="male-s"
-                placeholder="E-mail"
-              />
+          <p class="joins">Подпишитесь на рассылку</p>
+
+          <form method="POST" class="subscribemail">
+            <input
+              type="mail"
+              name="mail"
+              class="male-s"
+              placeholder="E-mail"
+            />
+            <div class="fly">
               <button type="button" class="mail-button">
                 Подписаться
                 <svg class="icon" width="24" height="24">
                   <use href="./images/sprite.svg#icon-icon-send"></use>
                 </svg>
               </button>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
