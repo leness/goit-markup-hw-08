@@ -21,7 +21,7 @@
 
 .male-s {
   padding: 15px 16px;
-  // min-width: 450px;
+  // max-width: 450px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -42,6 +42,8 @@
 }
 
 .mail-button {
+  position: relative;
+  // display: flex;
   padding: 10px;
   padding-left: 29px;
   padding-right: 62px;
@@ -60,17 +62,17 @@
   border-radius: 4px;
 }
 
-.fly {
-  position: relative;
-  // margin-left: 140px;
-  // margin-right: 140px;
-}
+// .fly {
+//   position: relative;
+//   // margin-left: 140px;
+//   // margin-right: 140px;
+// }
 
 .icon {
   position: absolute;
-  // display: flex;
+  display: flex;
   top: 13px;
-  right: 150px;
+  right: 25px;
 
   @include for-size(tablet) {
     position: absolute;
