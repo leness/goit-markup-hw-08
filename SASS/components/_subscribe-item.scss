@@ -27,7 +27,6 @@
 
 .male-s {
   padding: 15px 16px;
-  // max-width: 450px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -36,7 +35,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 1.25px;
-
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -57,8 +55,6 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  // align-items: center;
-  // text-align: center;
   letter-spacing: 0.06em;
 
   background-color: $accent-color;
@@ -67,12 +63,6 @@
   border: 1px solid $accent-color;
   border-radius: 4px;
 }
-
-// .fly {
-//   position: relative;
-//   // margin-left: 140px;
-//   // margin-right: 140px;
-// }
 
 .icon {
   position: absolute;
