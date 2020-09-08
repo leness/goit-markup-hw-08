@@ -13,8 +13,6 @@
 }
 
 .social-list {
-  background-color: purple;
-  // display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
@@ -59,14 +57,22 @@
   }
 
   @include for-size(desktop) {
-    // width: calc((100% - 90) / 4);
     width: 270px;
+    margin-bottom: 0;
+  }
+
+  &:not(:last-child) {
+    @media screen and (min-width: 1200px) {
+      margin-right: 30px;
+    }
+  }
+
+  &:nth-child(-n + 5) {
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+    }
   }
 }
-
-// .profession-item:not(:last-child) {
-//   margin-right: 30px;
-// }
 
 .profession-list {
   padding-top: 30px;
