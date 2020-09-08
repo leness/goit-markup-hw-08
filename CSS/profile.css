@@ -668,6 +668,16 @@ hr {
   color: #757575;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer > .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .footer {
   background: #2f303a;
 }
@@ -680,6 +690,13 @@ hr {
 @media screen and (min-width: 768px) {
   .address-block {
     margin-right: 165px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .address-block {
+    margin-right: 70px;
+    text-align: start;
   }
 }
 
@@ -733,6 +750,12 @@ hr {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .contacts-link-footer {
+    text-align: start;
+  }
+}
+
 .mail {
   margin-bottom: 8px;
 }
@@ -755,6 +778,12 @@ hr {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .join-item {
+    margin-right: 93px;
+  }
+}
+
 .joins {
   margin: 0;
   margin-bottom: 20px;
@@ -765,6 +794,12 @@ hr {
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .joins {
+    text-align: start;
+  }
 }
 
 .list-footer {
@@ -822,6 +857,7 @@ hr {
   .subscribe-item {
     padding-top: 72px;
     padding-bottom: 94px;
+    width: calc(100% / 2);
   }
 }
 
@@ -829,10 +865,30 @@ hr {
   text-align: center;
 }
 
+@media (min-width: 1200px) {
+  .subscribemail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
 .form-join {
   max-width: 450px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+  .form-join {
+    -ms-flex-preferred-size: 358px;
+        flex-basis: 358px;
+    margin-left: 15px;
+    margin-right: 12px;
+  }
 }
 
 .male-s {
@@ -856,6 +912,12 @@ hr {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 1200px) {
+  .male-s {
+    max-width: 358px;
+  }
+}
+
 .mail-button {
   position: relative;
   padding: 10px;
@@ -871,6 +933,13 @@ hr {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid #2196f3;
   border-radius: 4px;
+}
+
+@media (min-width: 1200px) {
+  .mail-button {
+    height: 50px;
+    margin-bottom: 20px;
+  }
 }
 
 .icon {
