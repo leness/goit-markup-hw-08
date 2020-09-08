@@ -7,11 +7,29 @@
   @include for-size(desktop) {
     padding-top: 72px;
     padding-bottom: 94px;
+    width: calc(100% / 2);
   }
 }
 
 .subscribemail {
   text-align: center;
+
+  @include for-size(desktop) {
+    display: flex;
+    align-items: flex-end;
+    // text-align: start;
+    // width: calc((100% -));
+  }
+
+  @media screen and (min-width: 1200px) {
+    // width: calc((100% / 2));
+    // flex-wrap: nowrap;
+    // max-width: 358px;
+    // display: flex;
+    // justify-content: space-between;
+
+    // text-align: start;
+  }
 }
 
 // .foter-mail {
@@ -23,6 +41,15 @@
   max-width: 450px;
   margin-left: auto;
   margin-right: auto;
+  // background-color: indigo;
+
+  @include for-size(desktop) {
+    // flex-direction: column;
+    // width: 358px;
+    flex-basis: 358px;
+    margin-left: 15px;
+    margin-right: 12px;
+  }
 }
 
 .male-s {
@@ -43,6 +70,12 @@
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+
+  @media screen and (min-width: 1200px) {
+    // width: calc((100% / 2));
+    // flex-wrap: nowrap;
+    max-width: 358px;
+  }
 }
 
 .mail-button {
@@ -62,6 +95,12 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid $accent-color;
   border-radius: 4px;
+
+  @include for-size(desktop) {
+    height: 50px;
+    margin-bottom: 20px;
+    // align-items: flex-end;
+  }
 }
 
 .icon {
