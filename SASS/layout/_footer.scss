@@ -1,6 +1,9 @@
-// .footer > .container {
-//   // display: flex;
-// }
+.footer > .container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
 .footer {
   background: #2f303a;
@@ -12,6 +15,11 @@
 
   @media screen and (min-width: 768px) {
     margin-right: 165px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+    text-align: start;
   }
 }
 
