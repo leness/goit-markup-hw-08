@@ -14,11 +14,9 @@
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  background-color: seagreen;
 
   @include for-size(desktop) {
     flex-wrap: nowrap;
-    // margin-right: 30px;
   }
 }
 
@@ -28,27 +26,8 @@
   margin-right: 30px;
   margin-bottom: 30px;
 
-  // @include for-size(desktop) {
-  //   width: 100%;
-  //   background-color: purple;
-  //   margin-bottom: 0;
-  //   margin-right: 30px;
-  // }
-
-  // &:nth-child(3n) {
-  //   @media screen and (min-width: 1600px) {
-  //     margin-right: 20px;
-  //   }
-  // }
-  // &:last-child {
-  //   @media screen and (min-width: 1600px) {
-  //     margin-right: 0;
-  //   }
-  // }
-
   @include for-size(tablet-landscape) {
     width: calc((100% - 60px) / 3);
-    background-color: royalblue;
   }
 
   &:nth-last-child(-n + 3) {
@@ -65,7 +44,6 @@
 
   @include for-size(desktop) {
     width: calc((100% - 150px) / 6);
-    background-color: purple;
     margin-bottom: 0;
     margin-right: 30px;
   }
