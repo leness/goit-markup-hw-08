@@ -304,9 +304,9 @@ img {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .container {
-    width: 1600px;
+    width: 1200px;
   }
 }
 
@@ -333,7 +333,7 @@ img {
   color: #212121;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .text-title-link {
     font-size: 36px;
     margin-bottom: 50px;
@@ -809,7 +809,7 @@ hr {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/desktop/img-header.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/desktop/img-header.jpg");
@@ -832,7 +832,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 1600px) and (min-device-pixel-ratio: 2), screen and (min-width: 1600px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1600px) and (min-resolution: 192dpi), screen and (min-width: 1600px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/desktop/img@2x-header.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/desktop/img@2x-header.jpg");
@@ -850,7 +850,7 @@ hr {
   color: #ffffff;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .page-title {
     font-size: 44px;
   }
@@ -861,7 +861,7 @@ hr {
   padding-bottom: 60px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .title-caption {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -880,7 +880,7 @@ hr {
   padding-left: 0px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .list-title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -926,7 +926,7 @@ hr {
   text-align: center;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .caption {
     text-align: start;
   }
@@ -953,7 +953,7 @@ hr {
   margin-bottom: 0px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .feature-list {
     padding-bottom: 94px;
   }
@@ -993,7 +993,7 @@ hr {
   padding-bottom: 60px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .human {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -1017,7 +1017,7 @@ hr {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .social-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1056,7 +1056,7 @@ hr {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .profession-item {
     width: 270px;
   }
@@ -1143,7 +1143,7 @@ hr {
   padding-bottom: 60px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .clients {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -1161,7 +1161,7 @@ hr {
   padding-left: 0;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .list-customers {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -1193,7 +1193,7 @@ hr {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .customer {
     width: calc((100% - 150px) / 6);
     margin-bottom: 0;
@@ -1201,13 +1201,13 @@ hr {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .customer:nth-child(3n) {
     margin-right: 30px;
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .customer:last-child {
     margin-right: 0;
   }
@@ -1269,7 +1269,7 @@ hr {
   text-align: center;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .address-block {
     margin-right: 30px;
   }
@@ -1297,7 +1297,7 @@ hr {
   text-align: center;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .text-address {
     margin-bottom: 9px;
   }
@@ -1318,7 +1318,7 @@ hr {
   margin-bottom: 8px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .mail {
     margin-bottom: 9px;
   }
@@ -1328,7 +1328,7 @@ hr {
   padding-top: 60px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .join-item {
     padding-top: 72px;
     padding-bottom: 100px;
@@ -1399,7 +1399,7 @@ hr {
   padding-bottom: 60px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .subscribe-item {
     padding-top: 72px;
     padding-bottom: 94px;
