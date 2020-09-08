@@ -1,6 +1,4 @@
 .subscribe-item {
-  // display: inline-block;
-  // max-width: 570px;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -17,35 +15,15 @@
   @include for-size(desktop) {
     display: flex;
     align-items: flex-end;
-    // text-align: start;
-    // width: calc((100% -));
-  }
-
-  @media screen and (min-width: 1200px) {
-    // width: calc((100% / 2));
-    // flex-wrap: nowrap;
-    // max-width: 358px;
-    // display: flex;
-    // justify-content: space-between;
-
-    // text-align: start;
   }
 }
-
-// .foter-mail {
-//   position: relative;
-//   // display: flex;
-// }
 
 .form-join {
   max-width: 450px;
   margin-left: auto;
   margin-right: auto;
-  // background-color: indigo;
 
   @include for-size(desktop) {
-    // flex-direction: column;
-    // width: 358px;
     flex-basis: 358px;
     margin-left: 15px;
     margin-right: 12px;
@@ -72,15 +50,12 @@
   border-radius: 4px;
 
   @media screen and (min-width: 1200px) {
-    // width: calc((100% / 2));
-    // flex-wrap: nowrap;
     max-width: 358px;
   }
 }
 
 .mail-button {
   position: relative;
-  // display: flex;
   padding: 10px;
   padding-left: 29px;
   padding-right: 62px;
@@ -99,7 +74,6 @@
   @include for-size(desktop) {
     height: 50px;
     margin-bottom: 20px;
-    // align-items: flex-end;
   }
 }
 
@@ -113,6 +87,5 @@
     position: absolute;
     top: 13px;
     left: 60%;
-    // right: 150px;
   }
 }
