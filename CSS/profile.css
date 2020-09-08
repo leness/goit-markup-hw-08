@@ -304,9 +304,9 @@ img {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .container {
-    width: 1600px;
+    width: 1200px;
   }
 }
 
@@ -333,7 +333,7 @@ img {
   color: #212121;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .text-title-link {
     font-size: 36px;
     margin-bottom: 50px;
@@ -530,7 +530,7 @@ hr {
   padding-bottom: 40px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .container.portfolio {
     padding-top: 93px;
     padding-bottom: 50px;
@@ -546,7 +546,7 @@ hr {
   margin-bottom: 0;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .list-companies {
     padding-bottom: 93px;
   }
@@ -583,7 +583,7 @@ hr {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .projects {
     width: 370px;
   }
@@ -618,7 +618,7 @@ hr {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .portfolio-description {
     padding: 63px 24px;
   }
@@ -677,7 +677,7 @@ hr {
   text-align: center;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .address-block {
     margin-right: 30px;
   }
@@ -705,7 +705,7 @@ hr {
   text-align: center;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .text-address {
     margin-bottom: 9px;
   }
@@ -726,7 +726,7 @@ hr {
   margin-bottom: 8px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .mail {
     margin-bottom: 9px;
   }
@@ -736,7 +736,7 @@ hr {
   padding-top: 60px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .join-item {
     padding-top: 72px;
     padding-bottom: 100px;
@@ -807,7 +807,7 @@ hr {
   padding-bottom: 60px;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .subscribe-item {
     padding-top: 72px;
     padding-bottom: 94px;
