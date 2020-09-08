@@ -17,6 +17,15 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
+
+  @include for-size(tablet-landscape) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @include for-size(desktop) {
+    display: flex;
+  }
 }
 
 .profession-item {
@@ -25,11 +34,14 @@
   border-radius: 0px 0px 4px 4px;
 
   &:not(:last-child) {
-    margin-bottom: 60px;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 60px;
+    }
   }
 
   @include for-size(tablet-landscape) {
-    width: 354px;
+    width: calc((100% - 30px) / 2);
+    margin-bottom: 0;
   }
 
   @include for-size(desktop) {
