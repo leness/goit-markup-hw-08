@@ -6,8 +6,14 @@
   margin-top: 0;
   margin-bottom: 0;
 
+  @include for-size(tablet-landscape) {
+    // padding-bottom: 93px;
+    display: flex;
+  }
+
   @include for-size(desktop) {
     padding-bottom: 93px;
+    display: flex;
   }
 }
 
