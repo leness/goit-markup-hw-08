@@ -1001,6 +1001,7 @@ hr {
 }
 
 .social-list {
+  background-color: purple;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
@@ -1040,6 +1041,18 @@ hr {
   .profession-item {
     width: calc((100% - 30px) / 2);
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profession-item:nth-child(2n + 1) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profession-item:nth-child(-n + 2) {
+    margin-bottom: 30px;
   }
 }
 
