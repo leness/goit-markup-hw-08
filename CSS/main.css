@@ -1001,7 +1001,6 @@ hr {
 }
 
 .social-list {
-  background-color: purple;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
@@ -1059,6 +1058,19 @@ hr {
 @media (min-width: 1200px) {
   .profession-item {
     width: 270px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .profession-item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .profession-item:nth-child(-n + 5) {
+    margin-bottom: 0;
   }
 }
 
@@ -1269,9 +1281,20 @@ hr {
   text-align: center;
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .address-block {
-    margin-right: 30px;
+    margin-right: 165px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-tabl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
