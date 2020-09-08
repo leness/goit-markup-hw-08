@@ -59,6 +59,7 @@
   }
 
   @include for-size(desktop) {
+    // width: calc((100% - 90) / 4);
     width: 270px;
   }
 }
