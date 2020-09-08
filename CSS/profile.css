@@ -677,9 +677,20 @@ hr {
   text-align: center;
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .address-block {
-    margin-right: 30px;
+    margin-right: 165px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-tabl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
