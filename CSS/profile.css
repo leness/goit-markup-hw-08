@@ -602,13 +602,15 @@ hr {
 
 @media (min-width: 768px) {
   .projects {
-    width: 354px;
+    -ms-flex-preferred-size: 354px;
+        flex-basis: 354px;
   }
 }
 
 @media (min-width: 1200px) {
   .projects {
-    width: 370px;
+    -ms-flex-preferred-size: 370px;
+        flex-basis: 370px;
     margin-right: 0;
   }
 }
