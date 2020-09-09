@@ -35,11 +35,11 @@
   }
 
   @include for-size(tablet-landscape) {
-    width: 354px;
+    flex-basis: 354px;
   }
 
   @include for-size(desktop) {
-    width: 370px;
+    flex-basis: 370px;
     margin-right: 0;
   }
 
