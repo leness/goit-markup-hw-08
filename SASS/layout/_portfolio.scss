@@ -1,5 +1,4 @@
 .list-companies {
-  // display: flex;
   flex-wrap: wrap;
   padding-left: 0;
   padding-bottom: 60px;
@@ -7,7 +6,6 @@
   margin-bottom: 0;
 
   @include for-size(tablet-landscape) {
-    // padding-bottom: 93px;
     display: flex;
   }
 
