@@ -4,8 +4,10 @@
 }
 
 .filter {
-  // display: flex;
-  justify-content: center;
+  @include for-size(tablet-landscape) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .container.portfolio {
