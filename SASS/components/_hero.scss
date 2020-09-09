@@ -32,8 +32,6 @@
         rgba(47, 48, 58, 0.4) 100%
       ),
       url("../images/desktop/img-header.jpg");
-    padding-top: 200px;
-    padding-bottom: 200px;
   }
 }
 
@@ -91,5 +89,7 @@
 
   @include for-size(desktop) {
     font-size: 44px;
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
