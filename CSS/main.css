@@ -341,6 +341,7 @@ img {
 }
 
 .btn {
+  height: 38px;
   font-weight: 500;
   font-size: 16px;
   padding: 6px 22px;
