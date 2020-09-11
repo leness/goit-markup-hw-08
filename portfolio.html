@@ -42,6 +42,41 @@
               <use href="./images/sprite.svg#icon-Vector"></use>
             </svg>+38 096 111 11 11</a>
         </address>
+
+<button class="btn-burger" type="button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+  <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+    <use class="icon-cross" href="./images/sprite.svg#icon-close_40px"></use>
+    <use class="icon-menu" href="./images/sprite.svg#icon-menu_40px-1"></use>
+  </svg>
+</button>
+
+<div class="mobile-menu" id="menu-container" data-menu>
+  <div class="navigation">
+    <ul class="site-nav">
+      <li class="menu-item">
+        <a href="./index.html" class="menu-link current">Студия</a>
+      </li>
+      <li class="menu-item">
+        <a href="" class="menu-link">Портфолио</a>
+      </li>
+      <li class="menu-item">
+        <a href="" class="menu-link">Контакты</a>
+      </li>
+    </ul>
+  </div>
+  <div class="contacts-item">
+    <address class="contacts-links">
+      <a href="mailto:info@devstudio.com" class="contacts-link-mob"><svg class="contacts-icon">
+          <use href="./images/sprite.svg#icon-envelope" class="icon"></use>
+        </svg>info@devstudio.com</a>
+
+      <a href="tel:+380961111111" class="contacts-link-mob phone"><svg class="contacts-icon-tell">
+          <use href="./images/sprite.svg#icon-Vector"></use>
+        </svg>+38 096 111 11 11</a>
+    </address>
+  </div>
+</div>
+
       </div>
       <hr>
     </header>
@@ -499,5 +534,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
