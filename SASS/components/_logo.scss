@@ -10,6 +10,11 @@
   letter-spacing: 0.03em;
   color: $accent-color;
   text-decoration: none;
+
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    margin-right: 0;
+  }
 }
 
 .logo-color-black {
