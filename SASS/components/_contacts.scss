@@ -1,5 +1,7 @@
 .contacts {
-  display: none;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 //  @media screen and (max-width: 767px) {

@@ -1,11 +1,14 @@
 // .site-nav-list {
-//   @media screen and (max-width: 767px) {
-//     display: none;
-//   }
+// @media screen and (max-width: 767px) {
+//   display: none;
+// }
 
 .site-nav-list {
-  display: none;
-  // display: flex;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
 

@@ -1,0 +1,26 @@
+.btn-burger {
+  // position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-color: cyan;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  & .icon-cross {
+    display: none;
+  }
+
+  &.is-open .icon-cross {
+    display: block;
+  }
+
+  &.is-open .icon-menu {
+    display: none;
+  }
+}
