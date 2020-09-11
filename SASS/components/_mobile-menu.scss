@@ -104,3 +104,21 @@
     margin-right: 10px;
   }
 }
+
+.contacts:hover,
+.contacts:focus {
+  color: $accent-color;
+}
+
+.contacts-link-mob:hover,
+.contacts-link-mob:focus {
+  color: $accent-color;
+}
+
+.contacts-icon {
+  fill: currentColor;
+}
+
+.contacts-icon-tell {
+  fill: currentColor;
+}
