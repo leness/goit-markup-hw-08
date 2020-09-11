@@ -8,6 +8,11 @@
     display: none;
   }
 
+  @media screen and (max-width: 1199px) {
+    padding-left: 0;
+    margin-left: 88px;
+  }
+
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
