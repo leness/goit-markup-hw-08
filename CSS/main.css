@@ -457,7 +457,8 @@ img {
   }
 }
 
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
   color: #2196f3;
 }
 
@@ -684,6 +685,24 @@ img {
     height: 16px;
     margin-right: 10px;
   }
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+
+.contacts-link-mob:hover,
+.contacts-link-mob:focus {
+  color: #2196f3;
+}
+
+.contacts-icon {
+  fill: currentColor;
+}
+
+.contacts-icon-tell {
+  fill: currentColor;
 }
 
 .btn-burger {
