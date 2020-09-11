@@ -1,17 +1,20 @@
 .btn-burger {
-  // position: absolute;
   top: 0;
   right: 0;
+  height: 40px;
+  margin-top: 20px;
+
   display: inline-flex;
-  margin: 0;
+
   padding: 0;
   border: none;
   background-color: transparent;
-  background-color: cyan;
+  // background-color: cyan;
 
   @media screen and (min-width: 768px) {
     display: none;
   }
+
   & .icon-cross {
     display: none;
   }
