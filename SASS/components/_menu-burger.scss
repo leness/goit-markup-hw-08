@@ -27,3 +27,8 @@
     display: none;
   }
 }
+
+.btn-burger:hover,
+.btn-burger:focus {
+  fill: $accent-color;
+}
