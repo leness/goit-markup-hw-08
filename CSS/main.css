@@ -736,6 +736,11 @@ img {
   display: none;
 }
 
+.btn-burger:hover,
+.btn-burger:focus {
+  fill: #2196f3;
+}
+
 .button-item {
   margin-right: auto;
   margin-left: auto;
